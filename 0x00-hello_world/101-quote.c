@@ -8,6 +8,13 @@
  */
 int main(void)
 {
-	write (2, and that piece of art is useful\ - Dora Korpar, 2015-10-19"\n, 59);
-	return (1);
+	char wr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	int i;
+
+	for (i = 0; wr[i] != '\0'; i++)
+	{
+		putchar(wr[i]);
+	}
+	putchar('\n');
+	return (0);
 }
